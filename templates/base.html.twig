@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpOceans">
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/favicon.png') }}">
     <title> Mylove - Wedding HTML5 Template</title>
     <link href="{{ asset('css/themify-icons.css') }}" rel="stylesheet">
     <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
@@ -61,8 +61,9 @@
                         </div>
                         <div class="col-lg-2 col-md-6 col-6">
                             <div class="navbar-header">
-                                <a class="navbar-brand logo" href="index.html"><small>My</small>love<span><i
-                                                class="fi flaticon-dove"></i></span></a>
+                                <a class="navbar-brand logo" href="index.html">
+                                    <img src="{{ asset('img/logo-l-and-m.png') }}">
+                                </a>
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-1 col-1">
@@ -248,25 +249,6 @@
         </div>
     </footer>
     <!-- end of wpo-site-footer-section -->
-    <!-- color-switcher -->
-    <div class="color-switcher-wrap">
-        <div class="color-switcher-item">
-            <div class="color-toggle-btn">
-                <i class="fa fa-cog"></i>
-            </div>
-            <ul id="switcher">
-                <li class="btn btn1" id="Button1"></li>
-                <li class="btn btn2" id="Button2"></li>
-                <li class="btn btn3" id="Button3"></li>
-                <li class="btn btn4" id="Button4"></li>
-                <li class="btn btn5" id="Button5"></li>
-                <li class="btn btn6" id="Button6"></li>
-                <li class="btn btn7" id="Button7"></li>
-                <li class="btn btn8" id="Button8"></li>
-                <li class="btn btn9" id="Button9"></li>
-            </ul>
-        </div>
-    </div>
 
 </div>
 <!-- end of page-wrapper -->
