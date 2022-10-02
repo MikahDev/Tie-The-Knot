@@ -25,6 +25,8 @@ class SaveTheDateController extends AbstractController
             $entityManager->persist($guest);
             $entityManager->flush();
 
+            $this->addFlash('success', 'Merci pour ces informations, nous vous contacterons bientôt :)');
+
             return $this->redirectToRoute('app_save_the_date');
         }
 

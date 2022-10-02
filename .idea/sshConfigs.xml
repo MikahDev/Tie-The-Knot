@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="195.15.243.46" id="0a09769d-770b-4533-8f4b-c108c4ad0d22" keyPath="$USER_HOME$/.ssh/id_public_cloud" port="22" nameFormat="DESCRIPTIVE" username="debian" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

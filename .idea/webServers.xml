@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f1228f1f-e877-4d9c-ad94-1836519d6443" name="Public Cloud Wedding" url="http://laura-et-mikah.fr/">
+        <fileTransfer rootFolder="/var/www/laura-et-mikah.fr" accessType="SFTP" host="195.15.243.46" port="22" sshConfigId="0a09769d-770b-4533-8f4b-c108c4ad0d22" sshConfig="debian@195.15.243.46:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
