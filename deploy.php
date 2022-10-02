@@ -20,14 +20,3 @@ host('195.15.243.46')
 // Hooks
 
 after('deploy:failed', 'deploy:unlock');
-
-task('initialize', [
-    'deploy:info',
-    'deploy:prepare',
-    'deploy:lock',
-    'deploy:release',
-    'deploy:update_code',
-    'deploy:shared',
-    'deploy:unlock',
-    'cleanup',
-]);
