@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97d3c4d4f38a424bafe709a6b0b321a8",
+    "content-hash": "aad4b17dfa7eb45a75f1ae00707bcc57",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2769,79 +2769,6 @@
                 }
             ],
             "time": "2022-08-23T20:52:30+00:00"
-        },
-        {
-            "name": "symfony/crowdin-translation-provider",
-            "version": "v6.0.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/crowdin-translation-provider.git",
-                "reference": "c7f39eb3583a3380d9cfde19d100b485d643b8bd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/crowdin-translation-provider/zipball/c7f39eb3583a3380d9cfde19d100b485d643b8bd",
-                "reference": "c7f39eb3583a3380d9cfde19d100b485d643b8bd",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.0.2",
-                "symfony/config": "^5.4|^6.0",
-                "symfony/http-client": "^5.4|^6.0",
-                "symfony/translation": "^5.4|^6.0"
-            },
-            "type": "symfony-translation-bridge",
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Translation\\Bridge\\Crowdin\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andrii Bodnar",
-                    "homepage": "https://github.com/andrii-bodnar"
-                },
-                {
-                    "name": "Mathieu Santostefano",
-                    "homepage": "https://github.com/welcomattic"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Crowdin Translation Provider Bridge",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "crowdin",
-                "provider",
-                "translation"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/crowdin-translation-provider/tree/v6.0.12"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-08-12T13:08:57+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -6753,16 +6680,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v6.0.14",
+            "version": "v6.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "6f99eb179aee4652c0a7cd7c11f2a870d904330c"
+                "reference": "5e71973b4991e141271465dacf4bf9e719941424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/6f99eb179aee4652c0a7cd7c11f2a870d904330c",
-                "reference": "6f99eb179aee4652c0a7cd7c11f2a870d904330c",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/5e71973b4991e141271465dacf4bf9e719941424",
+                "reference": "5e71973b4991e141271465dacf4bf9e719941424",
                 "shasum": ""
             },
             "require": {
@@ -6828,7 +6755,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v6.0.14"
+                "source": "https://github.com/symfony/translation/tree/v6.0.12"
             },
             "funding": [
                 {
@@ -6844,7 +6771,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-07T08:02:12+00:00"
+            "time": "2022-08-02T16:01:06+00:00"
         },
         {
             "name": "symfony/translation-contracts",
