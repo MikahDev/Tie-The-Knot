@@ -18,5 +18,5 @@ host('195.15.243.46')
     ->set('deploy_path', '/var/www/laura-et-mikah.fr');
 
 // Hooks
-
+after('deploy:vendors', 'database:migrate');
 after('deploy:failed', 'deploy:unlock');
